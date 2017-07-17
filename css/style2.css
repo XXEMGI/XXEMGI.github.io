@@ -1,0 +1,58 @@
+@font-face {
+    font-family: MyriadPro;
+    src: url("../fonts/MyriadPro-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MoonFlower;
+    src: url("../fonts/MoonFlower.ttf");
+}
+
+@font-face {
+    font-family: MoonFlower-Bold;
+    src: url("../fonts/MoonFlower-Bold.ttf");
+}
+
+body {
+  position: relative; 
+}
+
+.navCor {
+  background-color: white;
+  opacity: 0.44;
+  /*Fonte UI/UX */
+  font-family: 'MyriadPro'; 
+  color: #70706F;
+  font-weight: bold;
+  text-transform: uppercase;/*Modo Capslog*/
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+#navbarCollapse {
+  /* padding-left: 5%; */
+}
+
+.homeBackground {
+  width: 100%;
+}
+
+.tituloPatrocinadores {
+  padding: 3%;
+  font-family: 'MoonFlower-Bold';
+  color: #95181A;
+}
+
+
+  /*#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}*/

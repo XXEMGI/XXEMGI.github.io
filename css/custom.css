@@ -1,0 +1,75 @@
+/*
+
+	cores escolhidas
+	#512DA8 - Roxo
+	#5F634F - Cinza escuro (Títulos)
+	#EBEBEB - Branco
+	#CAD2C5 - Cinza claro
+
+*/
+
+/*
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+*/
+
+.roxo {
+	color: #512DA8 !important;
+}
+
+.cinzaEscuro {
+	color: #5F634F !important;
+}
+
+.branco {
+	color: #EBEBEB !important;
+}
+
+.cinzaClaro {
+	color: #CAD2C5 !important;
+}
+
+.bg-roxo {
+	background-color: #512DA8 !important;
+}
+
+.bg-cinzaEscuro {
+	background-color: #5F634F !important;
+}
+
+.bg-branco {
+	background-color: #EBEBEB !important;
+}
+
+.bg-cinzaClaro {
+	background-color: #CAD2C5 !important;
+}
+
+.padding5 {
+	padding: 5%;
+}
+
+.padding10 {
+	padding: 10%;
+}
+
+.margin5 {
+	margin: 5%;
+}
+
+.margin10 {
+	margin: 10%;
+}
+
+.imagemCard {
+	height: 15em;
+}
+
+  #testehtml {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  }
+
+  #i1{
+	  height: 20px;
+  }
