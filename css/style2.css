@@ -30,15 +30,21 @@ body {
   display: inline-block;
   float: none;
   vertical-align: top;
+  
+  
 }
 
 .navbar .navbar-collapse {
   text-align: center;
+  color : blue;
+   
 }
 
-#navbarCollapse {
-  /* padding-left: 5%; */
-}
+/* #navbarCollapse {
+
+  opacity: 0.9;
+  color;
+} */
 
 .homeBackground {
   width: 100%;

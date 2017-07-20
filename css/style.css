@@ -1,32 +1,240 @@
-/*body {
-    margin: 0;
+* {
+  padding: 0px;
+  margin: 0px auto;
+}
+@font-face {
+    font-family: MyriadPro;
+    src: url("../fonts/MyriadPro-Regular.otf") format("opentype");
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    background-color: #f1f1f1;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
+@font-face {
+    font-family: MoonFlower;
+    src: url("../fonts/MoonFlower.ttf");
 }
 
-li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
+@font-face {
+    font-family: MoonFlower-Bold;
+    src: url("../fonts/MoonFlower-Bold.ttf");
 }
 
-li a.active {
-    background-color: #4CAF50;
-    color: white;
+/* @media only screen and (min-device-width: 300px) {
+    header { 
+        background-image: url('../img/inicio.jpg'); 
+    }
+} */
+
+
+.fundoBranco{
+  background-color: #F7F5F5
 }
 
-li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}*/
 
+.navCor {
+  background-color: white;
+  opacity: 0.44;
+  /*Fonte UI/UX */
+  font-family: 'MyriadPro'; 
+  color: #70706F;
+  font-weight: bold;
+  text-transform: uppercase;/*Modo Capslog*/
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navItemCor{
+  color: #262626 !important;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+#navbarCollapse {
+  /* padding-left: 5%; */
+}
+
+.imgHeader{
+  max-width: 8%;
+}
+.imgTituloHeader{
+  max-width: 35%;
+}
+.buttonHeader{
+  margin-top: 30px;
+  color:#262626;
+  background-color: transparent;
+  border-color: #262626;
+}
+.ajuste1{
+  height: 100px;
+}
+.letraHeader{
+  font-size: 1500%;
+  font-family: "MoonFlower";
+  color: #70706F;
+  
+}
+.subHeader{
+  margin-top: -50px;
+  font-size: 400%;
+  font-family: "MoonFlower";
+  color: #262626;
+   
+}
+
+header {                        
+    background-repeat: no-repeat;
+    background-size: cover ;                        
+    overflow: hidden;
+    background-image: url('../img/inicio.jpg');
+     height: 100vh; 
+    color: #F7F5F5;
+    min-height: auto;
+    max-width:100%;
+    background-attachment: fixed;
+    background-position: center;
+  
+    
+  }
+
+  #box-wrapper{
+       background-repeat: no-repeat;
+      background-size: cover;                        
+      overflow: hidden;
+      background-image: url('../img/inicio.jpg');
+      height: 100vh; 
+      color: #F7F5F5;
+      min-height: 640px;
+      background-position: center;
+  }
+
+
+
+
+
+
+
+.index01{
+  background-repeat: no-repeat;
+  
+  background-color: #95181A;
+  background-position: right;
+  background-image: url('../img/gastronomia.png');
+  height:90vh;
+
+}
+
+.textoId01{
+  font-family: "MyriadPro";
+  font-size:200%;
+  color: #F7F5F5;
+  margin-left: 5%;
+  margin-top: 2.5%;
+}
+
+.index02{
+  min-height: 80vh;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.tituloPatrocinadores {
+  padding: 3%;
+  font-family: 'MoonFlower-Bold';
+  color: #95181A;
+}
+
+.contentHeader {
+  margin-top: 5%;
+  position: relative;
+}
+
+.corFontId02{
+  color: #145121 !important;
+}
+.ajusteLarguraId02{
+  width: 80vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+.ajusteImgIN{
+  max-width: 30px;
+}
+
+.index03{
+  height: auto;
+  background-color: #145121;
+  padding-bottom: 20px;
+}
+.titulo03{
+  
+  font-family: 'MoonFlower-Bold';
+  color: #F7F5F5;
+}
+
+.cell_organizacao{
+  width: 50vh;
+  height: 50vh;
+  border-radius: 100%;
+  border: 3px solid #F7F5F5;
+}
+.ajusteImgOrganizacao{
+  height: 40vh;
+  margin-top: 5vh;
+}
+
+.letraOrganizacao{
+  font-family: "MyriadPro";
+  color: #F7F5F5;
+  padding: 4%;
+  font-size: 120%;
+}
+
+.ajusteBordaOrganizacao{
+  margin-top: 30px;
+  width: 80vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.index04{
+  padding-bottom: 20px;
+  
+}
+
+.index04 img{
+  width: 500px;
+  padding: 20px;
+}
+
+.index05{
+  background-color: #b71c1c;
+  padding-bottom: 40px;
+}
+.ajusteMap{
+  height:40vh;
+  
+  border-style: 10px; 
+}
+.corDivsId05{
+  background-color:#e53935;
+}
+.ajusteRowId05{
+  margin-top: 10px;
+}
+.bordaMap{
+  margin-left: -16px;
+  width: 185vh;
+  height: 43vh;
+  border: 10px solid #e53935;
+
+}
+
+  /*#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}*/
+@media only screen (max-width: 600px) and (min-width: 500px) {
+}
