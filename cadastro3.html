@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navCor">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">XXEMGI</a>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <form>
+                <div class="col-sm-6">
+                    <div>
+                        Nome:
+                        <input type="text" name="nome" placeholder="Nome" required="true">
+                    </div><br>
+                    <div>
+                        Sexo:
+
+                        <input type="radio" name="sexo" value="masculino">Masculino
+                        <input type="radio" name="sexo" value="feminino">Feminino<br/>
+                    </div>
+
+                    <div>
+                        Rua: <input type="text" name="rua">
+                    </div><br>
+
+
+
+
+                    <div>
+                        Bairro: <input type="text" name="bairro">
+                    </div><br/>
+                    <div>
+                        Cidade: <input type="text" name="cidade" value="Lavras">
+                    </div>
+                    <br/>
+
+                </div>
+
+                <div class="col-sm-6 teste">
+                    <div>
+                        CPF: <input type="number" name="cpf">
+                    </div><br/>
+                    <div>
+                        Estado:
+                        <select name="estado">
+                        <option value="MG">MG</option>			
+                        <option value="SP">SP</option>
+                        <option value="RJ">RJ</option>
+                        <option value="RS">RS</option>
+                        <option value="MS">MS</option>
+                        <option value="MT">MT</option>
+                        <option value="GO">GO</option>
+                    </select><br/>
+                    </div>
+                    <div>
+                        CEP: <input type="text" name="cep"><br/>
+                    </div>
+                    <div class="form-group">
+                        Idade: <input class="form-group" type="number" name="idade" required="true"><br/>
+                    </div><br>
+
+                    <div class="form-group">
+                        Data de Nascimento: <input class="form-group" type="text" pattern="\d{1,2}/\d{1,2}/\d{2}" name="dataNascimento"
+                            placeholder="dd/mm/aa" required="true">
+                    </div>
+                    <div>
+                        Numero: <input type="number" name="numero">
+                    </div><br>
+
+
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

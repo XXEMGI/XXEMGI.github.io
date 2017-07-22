@@ -2,7 +2,7 @@
 <html>
 
 	<head>
-		<title>Trabalho</title>
+		<title>XXEMGI</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script src="js/jquery.min.js"></script>
@@ -15,7 +15,7 @@
 
 
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
-		 <header>
+		 <header class="div1" id="section1">
 			<div class="img-resonsive img-fluid">
 
 				<nav class="navCor navbar navbar-default navbar-fixed-top">
@@ -32,12 +32,12 @@
 						<!-- Collection of nav links and other content for toggling -->
 						<div id="navbarCollapse" class="collapse navbar-collapse centerNavText">
 							<ul class="nav navbar-nav centerNavItems ">
-								<li><a class= "navItemCor" href="index.html">Sobre</a></li>
+								<li><a class= "navItemCor" href="#section1">Sobre</a></li>
 								<li><a class= "navItemCor" href="#section1">Palestrantes</a></li>
 								<li><a class= "navItemCor" href="#section2">Organizadores</a></li>
 								<li><a class= "navItemCor" href="#section3">Patrocinadores</a></li>
-								<li><a class= "navItemCor" href="login.html">Localização</a></li>
-								 <li><a href="login.html" class= "navItemCor">Logar</a></li>
+								<li><a class= "navItemCor" href="#section4">Localização</a></li>
+								<li><a class= "navItemCor"  href="login.html" >Logar</a></li>
 							</ul>
 						</div>
 					</div>
@@ -46,9 +46,9 @@
 			<!--Parte da escrita, logo e nome -->
 
 			<div class="text-center contentHeader img-fluid">  
-				<img src="img/logo.png" class=" imgHeader center-block img-responsive"><br>
+				<img id="section1"src="img/logo.png" class=" imgHeader center-block img-responsive"><br>
 				<img src="img/titulo.png" class="center-block img-responsive imgTituloHeader"><br><br>	
-				<p class="subHeader"><strong>XX ENCONTRO MINEIRO DE GASTRONOMIA ITALIANA</strong></p>
+				<p class="subHeader"><strong class="testeStrong">XX ENCONTRO MINEIRO DE GASTRONOMIA ITALIANA</strong></p>
 				<button type="button" class="btn btn-primary-outline buttonHeader"><strong>INSCREVER</strong></button>
 
 			</div>     
@@ -63,7 +63,7 @@
 
 						<p> O EMGI oferece:</p>
 						<ul>
-							<li>5 palestrar</li>
+							<li>5 palestras</li>
 							<li>5 minicursos</li>
 							<li>Coffebreak</li>
 							<li>degustação</li>
@@ -200,7 +200,11 @@
 		}
 		var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 		}
-	</script>
+</script>
+
+<script src="js/iniciaComponentes.js">
+
+</script>
 
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjxs4VMNz50P7DEV8tz6gHAk2AHTopd7E&callback=myMap"></script>
 

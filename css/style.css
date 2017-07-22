@@ -24,6 +24,8 @@
 } */
 
 
+
+
 .fundoBranco{
   background-color: #F7F5F5
 }
@@ -56,6 +58,7 @@
 
 .imgHeader{
   max-width: 8%;
+  padding-top: 65px;
 }
 .imgTituloHeader{
   max-width: 35%;
@@ -77,9 +80,10 @@
 }
 .subHeader{
   margin-top: -50px;
-  font-size: 400%;
+  font-size: 500%;
   font-family: "MoonFlower";
   color: #262626;
+  padding-top: 5px;
    
 }
 
@@ -236,5 +240,29 @@ header {
   #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
   #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
   #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}*/
-@media only screen (max-width: 600px) and (min-width: 500px) {
+@media only screen and (max-width: 480px) {
+
+  .subHeader{
+      margin-top: 20px;
+      font-size: 250%;
+      font-family: "MoonFlower";
+      color: #262626;
+      padding-top: 5px; 
+    
+  }
+
+  header {                        
+    background-repeat: no-repeat;
+    background-size: cover ;                        
+    overflow: hidden;
+    background-image: url('../img/inicio.jpg');
+     height: 100vh; 
+    color: #F7F5F5;
+    min-height: auto;
+    max-width:100%;
+    background-attachment: fixed;
+    background-position: center;
+  
+    
+  }
 }
