@@ -67,6 +67,7 @@
 .imgTituloHeader{
   width: 450px;
   padding-top: -50px;
+  margin-top: -40px;
 }
 .buttonHeader{
   margin-top: 30px;
@@ -318,4 +319,24 @@ header {
   .cf{
     background-color: black;
   }
+}
+
+
+.btn-teste1{
+      width: 200px;
+    color: #F7F5F5;
+    background-color: #95181A;
+    padding-left: 4px;
+     margin-left: 330px;
+    padding: 20px; 
+}
+
+.btn-teste2{
+    width: 200px;
+    color: #F7F5F5;
+    background-color: #95181A;
+    padding-left: 4px;
+    background-size: 30%;
+    margin-left: 300px;
+    padding: 20px; 
 }
