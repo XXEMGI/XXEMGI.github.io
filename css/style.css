@@ -57,11 +57,16 @@
 }
 
 .imgHeader{
-  max-width: 8%;
-  padding-top: 65px;
+  width: 70px;
+  padding-top: 2px;
+
+  
 }
+
+
 .imgTituloHeader{
-  max-width: 35%;
+  width: 450px;
+  padding-top: -50px;
 }
 .buttonHeader{
   margin-top: 30px;
@@ -72,6 +77,7 @@
 .ajuste1{
   height: 100px;
 }
+
 .letraHeader{
   font-size: 1500%;
   font-family: "MoonFlower";
@@ -80,7 +86,7 @@
 }
 .subHeader{
   margin-top: -50px;
-  font-size: 500%;
+  font-size: 300%;
   font-family: "MoonFlower";
   color: #262626;
   padding-top: 5px;
@@ -150,7 +156,7 @@ header {
 }
 
 .contentHeader {
-  margin-top: 5%;
+  margin-top: -2%;
   position: relative;
 }
 
@@ -264,5 +270,52 @@ header {
     background-position: center;
   
     
+  }
+}
+
+@media only screen and (max-width: 481px) and (max-width: 715px) {
+
+
+  .subHeader{
+      margin-top: 20px;
+      font-size: 250%;
+      font-family: "MoonFlower";
+      color: #262626;
+      padding-top: 5px; 
+    
+  }
+
+  header {                        
+    background-repeat: no-repeat;
+    background-size: cover ;                        
+    overflow: hidden;
+    background-image: url('../img/inicio.jpg');
+     height: 100vh; 
+    color: #F7F5F5;
+    min-height: auto;
+    max-width:100%;
+    background-attachment: fixed;
+    background-position: center; 
+  }
+
+      .testeStrong{
+         font-size: 50px;
+      }
+}
+
+.cf{
+  background-color:#95181A;
+  
+}
+
+.listaNav{
+      font-size: 25px;
+      font-family: "MyriadPro";
+      color: #F7F5F5; 
+}
+
+@media only screen and(max-width:750px){
+  .cf{
+    background-color: black;
   }
 }

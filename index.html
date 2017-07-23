@@ -15,44 +15,49 @@
 
 
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
-		 <header class="div1" id="section1">
-			<div class="img-resonsive img-fluid">
+ <div class="container-fluit" style="height: 600px;">
+      <header class="info" style="height: 100%;background-image:url('img/inicio.jpg'); background-repeat: no-repeat; background-size: cover;
+    ">
+        <nav class="navbar navbar-inverse" >
+          <div class="container-fluid cf">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
 
-				<nav class="navCor navbar navbar-default navbar-fixed-top">
-					<div class="container">
-					<!-- Brand and toggle get grouped for better mobile display -->
-						<div class="navbar-header">
-							<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-							      <span class="sr-only">Toggle navigation</span>
-							      <span class="icon-bar"></span>
-							      <span class="icon-bar"></span>
-							      <span class="icon-bar"></span>
-						  	</button>
-						</div>
-						<!-- Collection of nav links and other content for toggling -->
-						<div id="navbarCollapse" class="collapse navbar-collapse centerNavText">
-							<ul class="nav navbar-nav centerNavItems ">
-								<li><a class= "navItemCor" href="#section1">Sobre</a></li>
-								<li><a class= "navItemCor" href="#section1">Palestrantes</a></li>
-								<li><a class= "navItemCor" href="#section2">Organizadores</a></li>
-								<li><a class= "navItemCor" href="#section3">Patrocinadores</a></li>
-								<li><a class= "navItemCor" href="#section4">Localização</a></li>
-								<li><a class= "navItemCor"  href="login.html" >Logar</a></li>
-							</ul>
-						</div>
-					</div>
-				</nav>
-			</div >
-			<!--Parte da escrita, logo e nome -->
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+				<li><a href="#" class="listaNav">SOBRE</a></li>
+				<li><a href="#" class="listaNav">PALESTRANTE</a></li>
+				<li><a href="#" class="listaNav">ORGANIZADORES</a></li>
+				<li><a href="#" class="listaNav">PATROCINADORES</a></li>
+				<li><a href="#" class="listaNav">LOCALIZAÇÃO</a></li>
 
-			<div class="text-center contentHeader img-fluid">  
-				<img id="section1"src="img/logo.png" class=" imgHeader center-block img-responsive"><br>
+              <!-- <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+              </ul> -->
+            </div>
+          </div>
+
+		</nav>
+		
+		 <div class="text-center contentHeader img-fluid">  
+				<img id="section1"src="img/logo.png" class=" imgHeader  img-responsive"><br>
 				<img src="img/titulo.png" class="center-block img-responsive imgTituloHeader"><br><br>	
 				<p class="subHeader"><strong class="testeStrong">XX ENCONTRO MINEIRO DE GASTRONOMIA ITALIANA</strong></p>
-				<button type="button" class="btn btn-primary-outline buttonHeader"><strong>INSCREVER</strong></button>
 
-			</div>     
-		</header> 
+			</div> 
+
+      </header>
+	  		
+
+    </div>
+
+	
 
 		<main >
 			<section class=" index01 container-fluid">
@@ -201,6 +206,10 @@
 		var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 		}
 </script>
+
+
+
+
 
 <script src="js/iniciaComponentes.js">
 
