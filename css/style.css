@@ -315,14 +315,8 @@ header {
       color: #F7F5F5; 
 }
 
-@media only screen and(max-width:750px){
-  .cf{
-    background-color: black;
-  }
-}
-
-
-.btn-teste1{
+@media only screen and(max-width:400px){
+  .btn-teste1{
       width: 200px;
     color: #F7F5F5;
     background-color: #95181A;
@@ -338,5 +332,46 @@ header {
     padding-left: 4px;
     background-size: 30%;
     margin-left: 300px;
+    padding: 20px; 
+} 
+  
+ .testeStrong{
+         width: 10px;
+         padding-top: 2px;
+      }
+
+      .subHeader{
+        /* margin-top: -30px; */
+        font-size: 50%;
+        font-family: "MoonFlower";
+        color: #262626;
+        padding-top: -40px;
+   
+    }
+
+    .imgTituloHeader{
+      width: 30px;
+      padding-top: -50px;
+      margin-top: -40px;
+  }
+}
+
+
+.btn-teste1{
+      width: 200px;
+    color: #F7F5F5;
+    background-color: #95181A;
+    padding-left: 4px;
+    margin-right: 100px;
+    padding: 20px; 
+}
+
+.btn-teste2{
+    width: 200px;
+    color: #F7F5F5;
+    background-color: #95181A;
+    padding-left: 4px;
+    background-size: 30%;
+    margin-left: 100px;
     padding: 20px; 
 }
