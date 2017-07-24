@@ -2,89 +2,93 @@
 <html>
 
 	<head>
-		<title>XXEMGI</title>
+		<title>Trabalho</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<link rel="stylesheet"  href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/styleSobre.css">
+		<link rel="stylesheet" href="css/stylePalestrantes.css">
+		<link rel="stylesheet" href="css/styleOrganizadores.css">
+		<link rel="stylesheet" href="css/stylePatrocinadores.css">
+		<link rel="stylesheet" href="css/styleLocalizacao.css">
 		
 
 	</head>
 
 
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
- <div class="container-fluit" style="height: 600px;">
-      <header class="info" style="height: 100%;background-image:url('img/inicio.jpg'); background-repeat: no-repeat; background-size: cover;
-    ">
-        <nav class="navbar navbar-inverse" >
-          <div class="container-fluid cf">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-              <ul class="nav navbar-nav">
-				<li><a href="#" class="listaNav">SOBRE</a></li>
-				<li><a href="#" class="listaNav">PALESTRANTE</a></li>
-				<li><a href="#" class="listaNav">ORGANIZADORES</a></li>
-				<li><a href="#" class="listaNav">PATROCINADORES</a></li>
-				<li><a href="#" class="listaNav">LOCALIZAÇÃO</a></li>
-
-              <!-- <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-              </ul> -->
-            </div>
-          </div>
-
-		</nav>
-		
-		 <div class="text-center contentHeader img-fluid">
-			<div>
-				<img id="section1"src="img/logo.png" class=" imgHeader  img-responsive"><br>
-			</div>  
-			<div>
-				<img src="img/titulo.png" class="center-block img-responsive imgTituloHeader"><br><br>	
-			</div>
-			<div class="subHeader">
-				<p><strong class="testeStrong">XX ENCONTRO MINEIRO DE GASTRONOMIA ITALIANA</strong></p>
-			</div>
-
+		<header>
+			<!--<nav class="navCor navbar navbar-default navbar-fixed-top">
 				<div class="container">
-					<div class="row" >
-						<div class="col-xs-2" >
-							<a href=""><button type="button" class="btn btn-teste1">Inscrever</button></a>
-						</div>
-						<div class="col-xs-2 ">
-							<a href="login.html"><button type="button" class="btn btn-teste2" >Já Inscrito</button></a>
-						</div>
+					<div class="navbar-header navCorTeste">
+						<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle ">
+						      <span class="icon-bar"></span>
+						      <span class="icon-bar"></span>
+						      <span class="icon-bar"></span>
+					  	</button>
+
+					</div>
+					
+					<div id="navbarCollapse" class="collapse navbar-collapse centerNavText">
+						<ul class="nav navbar-nav centerNavItems ">
+							<li><a class= "navItemCor" href="#">Sobre</a></li>
+							<li><a class= "navItemCor" href="#">Palestrantes</a></li>
+							<li><a class= "navItemCor" href="#">Organizadores</a></li>
+							<li><a class= "navItemCor" href="#">Patrocinadores</a></li>
+							<li><a class= "navItemCor" href="#">Localização</a></li>
+						</ul>
 					</div>
 				</div>
-			</div> 
+			</nav>-->
+			<!--Parte da escrita, logo e nome -->
+			<nav class="navbar navbar-inverse" >
+		        <div class="container-fluid backNav">
+		            <div class="navbar-header">
+			            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			            	<span class="icon-bar"></span>
+			                <span class="icon-bar"></span>
+			                <span class="icon-bar"></span>
+			            </button>
 
-      </header>
-	  		
+		            </div>
+		           	<div class="collapse navbar-collapse" id="myNavbar">
+		              	<ul class="nav navbar-nav">
+							<li><a href="#" class="listaNav">SOBRE</a></li>
+							<li><a href="#" class="listaNav">PALESTRANTE</a></li>
+							<li><a href="#" class="listaNav">ORGANIZADORES</a></li>
+							<li><a href="#" class="listaNav">PATROCINADORES</a></li>
+							<li><a href="#" class="listaNav">LOCALIZAÇÃO</a></li>
+						</ul>
+					</div>
+		        </div>
+			</nav>
 
-    </div>
 
-	
+			<div class="text-center contentHeader">  
+				<img src="img/logo.png" class=" imgHeader center-block img-responsive">
+				<img src="img/titulo.png" class="center-block img-responsive imgTituloHeader">
+				<h2 class="subHeader"><strong>XX ENCONTRO MINEIRO DE GASTRONOMIA ITALIANA</strong></h2>
+				<button type="button" class="btn btn-primary-outline buttonHeader"><strong>INSCREVER</strong></button>
+				<button type="button" class="btn btn-primary-outline buttonHeader"><strong>JÁ INSCRITO</strong></button>
 
-		<main >
-			<section class=" index01 container-fluid">
-				<div class="row ">
-					<div class="textoId01 col-lg-6 col-md-6 col-sm-6 col-xs-12">
-						<p class="">O EMGI é um evento que tem como público alvo os estudantes de gastronomia, chefs de cozinha e trabalhadores na área.</p>
-						<p>O evento esse ano ocorrerá em Tiradentes, no Tiradentes Liberty Espaço Cultural.</p>
+
+
+			</div>     
+		</header>
+
+		<main>
+			<section class="index01 container-fluid" >
+				<div class="row">
+					<div class="textoId01 col-lg-7 col-md-6 col-sm-4 col-xs-12">
+						<p >O EMGI é um evento que tem como público alvo os estudantes de gastronomia, chefs de cozinha e trabalhadores na área.</p>
+						<p >O evento esse ano ocorrerá em Tiradentes, no Tiradentes Liberty Espaço Cultural.</p>
 
 						<p> O EMGI oferece:</p>
-						<ul>
-							<li>5 palestras</li>
+						<ul class="ajusteLista01">
+							<li>5 palestrar</li>
 							<li>5 minicursos</li>
 							<li>Coffebreak</li>
 							<li>degustação</li>
@@ -94,43 +98,44 @@
 				</div>
 
 			</section>
+		
 			<section class="index02 container-fluid fundoBranco">
 				<h1 class="text-center tituloPatrocinadores corFontId02">Palestrantes</h1>
 				<div class="row">
-					<div class="col-sm-3">
-						<img src="img/palestrante.png" class="img-responsive img-fluid">
+					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+						<img src="img/palestrante.png" class="img-responsive img-fluid tamImg02">
 						<p class="text-center">José Paulo Oliveira</p>
 						<img src="img/in.png" class="img-responsive img-fluid ajusteImgIN">
 					</div>
-					<div class="col-sm-3">
-						<img src="img/palestrante.png" class="img-responsive img-fluid">
+					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+						<img src="img/palestrante.png" class="img-responsive img-fluid tamImg02">
 						<p class="text-center">José Paulo Oliveira</p>
 						<img src="img/in.png" class="img-responsive img-fluid ajusteImgIN">
 					</div>
-					<div class="col-sm-3">
-						<img src="img/palestrante.png" class="img-responsive img-fluid">
+					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+						<img src="img/palestrante.png" class="img-responsive img-fluid tamImg02">
 						<p class="text-center">José Paulo Oliveira</p>
 						<img src="img/in.png" class="img-responsive img-fluid ajusteImgIN">
 					</div>
-					<div class="col-sm-3">
-						<img src="img/palestrante.png" class="img-responsive img-fluid">
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-6">
+						<img src="img/palestrante.png" class="img-responsive img-fluid tamImg02">
 						<p class="text-center">José Paulo Oliveira</p>
 						<img src="img/in.png" class="img-responsive img-fluid ajusteImgIN">
 					</div>
 				</div>
 				<div class="row ajusteLarguraId02">
-					<div class="col-lg-4">
-						<img src="img/palestrante.png" class="img-responsive img-fluid">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+						<img src="img/palestrante.png" class="img-responsive img-fluid tamImg02">
+						<p class="text-center">José Paulo Oliveira</p>
+						<img src="img/in.png" class="img-responsive img-fluid ajusteImgIN ">
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+						<img src="img/palestrante.png" class="img-responsive img-fluid tamImg02">
 						<p class="text-center">José Paulo Oliveira</p>
 						<img src="img/in.png" class="img-responsive img-fluid ajusteImgIN">
 					</div>
-					<div class="col-lg-4">
-						<img src="img/palestrante.png" class="img-responsive img-fluid">
-						<p class="text-center">José Paulo Oliveira</p>
-						<img src="img/in.png" class="img-responsive img-fluid ajusteImgIN">
-					</div>
-					<div class="col-lg-4">
-						<img src="img/palestrante.png" class="img-responsive img-fluid">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<img src="img/palestrante.png" class="img-responsive img-fluid tamImg02">
 						<p class="text-center">José Paulo Oliveira</p>
 						<img src="img/in.png" class="img-responsive img-fluid ajusteImgIN">
 					</div>
@@ -139,20 +144,20 @@
 			<section class="index03 container-fluid">
 				<h1 class="text-center titulo03">Organizadores</h1>
 				<div class="row ajusteBordaOrganizacao">
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 						<div class="cell_organizacao ">
 							<img src="img/org1.png" class="img-responsive ajusteImgOrganizacao">
 							
 						</div>
 						<p class="text-center letraOrganizacao">Associação de Gastronomia Italiana</p>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 						<div class="cell_organizacao ">
 							<img src="img/org2.png" class="img-responsive ajusteImgOrganizacao">
 						</div>
 						<p class="text-center letraOrganizacao">Faculdade de Gastronomia</p>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 						<div class="cell_organizacao">
 							<img src="img/org3.png" class="img-responsive ajusteImgOrganizacao">
 						</div>
@@ -160,58 +165,83 @@
 					</div>
 				</div>
 			</section>
-		</main>
 
-	
-		<section class="index04">
-			<div class="container-fluid fundoBranco">
-				<div class="row">
+			
+			<section class="index04">
+				<div class="container-fluid fundoBranco">
+					<div class="row">
 
-					<h1 class="text-center tituloPatrocinadores">Patrocinadores</h1>
+						<h1 class="text-center tituloPatrocinadores">Patrocinadores</h1>
 
-					<div class="col-sm-6 col-sm-offset-3">
-						<img class="img-responsive img-fluid" src="./img/pat.png" alt="">
+						<div class="col-sm-6 col-sm-offset-3">
+							<img class="img-responsive img-fluid tamImg04" src="./img/pat.png" alt="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4 col-sm-offset-1">
+							<img src="./img/patro.png" class="img-responsive img-fluid tamImg04" alt="">
+						</div>
+						<div class="col-sm-5 col-sm-offset-1">
+							<img src="./img/Cartelle logo.png" class="img-responsive img-fluid tamImg04" alt="">
+						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-sm-4 col-sm-offset-1">
-						<img src="./img/patro.png" class="img-responsive img-fluid" alt="">
+			</section>
+			<section class="index05">
+				<div class="container">
+					<h1 class="text-center titulo03">Localização</h1>
+					<div class="row">
+						<div class="bordaMap">
+							<div id="map" class="ajusteMap"></div>
+							
+						</div>
 					</div>
-					<div class="col-sm-5 col-sm-offset-1">
-						<img src="./img/Cartelle logo.png" class="img-responsive img-fluid" alt="">
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="index05">
-			<div class="container">
-				<h1 class="text-center titulo03">Localização</h1>
-				<div class="bordaMap">
-					<div id="map" class="ajusteMap"></div>
-					
-				</div>
-				<div class="row ajusteRowId05">
-					<div class="col-lg-6 corDivsId05">
-						<div class="row">
-							<div class="col-lg-3">
-								<img src="img/icone_localizacao.png" class="img-responsive">
+					<div class="row-fluid ajusteRowId05 ">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<div class="celulaDivId05 ">
+								<div class="row corDivsId05">
+									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+										<img src="img/icone_localizacao.png" class="img-responsive img-fluid img05">
+									</div>
+									<div class="col-lg-9 col-md-9 col-sm-9 col-xs-6">
+										<p class="alinharTexto1">Av.Gov.Israel Pinheiro, 72, Tiradentes - MG, 36325-000</p>
+									</div>
+								</div>
 							</div>
-							<div class="col-lg-9">
-								<p>Av.Gov.Israel Pinheiro, 72, Tiradentes - MG, 36325-000</p>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<div class="celulaDivId05 ">
+								<p class="alinharTexto2">20 a 23 de Julho</p>
+								<p class="alinharTexto2">10h -22h</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 corDivsId05">
-						<p>20 a 23 de Julho</p>
-						<p>10h -22h</p>
+				</div>
+
+			</section>
+		</main>
+		<footer >
+			<div class="container-fluid ajusteFooter">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<img src="img/face.png" class="img-responsive img-fluid imgFooter">
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<img src="img/insta.png" class="img-responsive img-fluid imgFooter">
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<img src="img/tt.png" class="img-responsive img-fluid imgFooter">
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<img src="img/youtube.png" class="img-responsive img-fluid imgFooter">
 					</div>
 				</div>
 			</div>
-
-		</section>
+		</footer>
 	</body>
 
-
+	
+	<!--
 	<script>
 		function myMap() {
 		var mapOptions = {
@@ -221,16 +251,10 @@
 		}
 		var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 		}
-</script>
-
-
-
-
-
-<script src="js/iniciaComponentes.js">
-
-</script>
+	</script>
 
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjxs4VMNz50P7DEV8tz6gHAk2AHTopd7E&callback=myMap"></script>
+	-->
+
 
 </html>

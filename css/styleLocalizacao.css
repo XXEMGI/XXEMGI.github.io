@@ -1,0 +1,42 @@
+.index05{
+  background-color: #b71c1c;
+  padding-bottom: 40px;
+}
+
+.ajusteMap{
+  height:300px;
+  
+  border-style: 10px; 
+}
+.img05{
+  margin-top: 15px;
+}
+.bordaMap{
+  width: auto;
+  border: 10px solid #e53935;
+}
+
+.ajusteRowId05{
+  margin-top: 10px;
+ }
+.celulaDivId05{
+  width: 100%;
+  min-height: 50px;
+  max-height: 150px;
+  height: 150px;
+  overflow: hidden;
+  background-color:#E42422;
+  opacity: 31%;
+}
+.alinharTexto1{
+  margin-top: 35px;
+  text-align: center;
+  color: #F7F5F5;
+  font-size: 1.5em;
+}
+.alinharTexto2{
+  margin-top: 20px;
+  text-align: center;
+  color: #F7F5F5;
+  font-size: 1.5em;
+}

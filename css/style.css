@@ -16,20 +16,9 @@
     font-family: MoonFlower-Bold;
     src: url("../fonts/MoonFlower-Bold.ttf");
 }
-
-/* @media only screen and (min-device-width: 300px) {
-    header { 
-        background-image: url('../img/inicio.jpg'); 
-    }
-} */
-
-
-
-
 .fundoBranco{
   background-color: #F7F5F5
 }
-
 
 .navCor {
   background-color: white;
@@ -46,39 +35,49 @@
   vertical-align: top;
 }
 .navItemCor{
-  color: #262626 !important;
+  color: #262626 ;
 }
+
+
+
+
+.backNav{
+  background-color:#95181A;
+  
+}
+.listaNav{
+      font-size: 2em;
+      font-family: "MyriadPro";
+      color: #F5F5F5; 
+}
+
+
+
 .navbar .navbar-collapse {
   text-align: center;
 }
 
-#navbarCollapse {
-  /* padding-left: 5%; */
+.navCorTeste{
+  background-color: red;
+  opacity: 1 !important;
 }
 
 .imgHeader{
-  width: 70px;
-  padding-top: 2px;
-
-  
+  max-width: 8%;
 }
-
-
 .imgTituloHeader{
-  width: 450px;
-  padding-top: -50px;
-  margin-top: -40px;
+  max-width: 35%;
 }
 .buttonHeader{
   margin-top: 30px;
-  color:#262626;
-  background-color: transparent;
+  color:#F5F5F5;
+  background-color: #95181A;;
   border-color: #262626;
+  font-size: 2em;
 }
 .ajuste1{
   height: 100px;
 }
-
 .letraHeader{
   font-size: 1500%;
   font-family: "MoonFlower";
@@ -87,300 +86,482 @@
 }
 .subHeader{
   margin-top: -50px;
-  font-size: 300%;
+  font-size: 5em;
   font-family: "MoonFlower";
   color: #262626;
-  padding-top: 5px;
-   
 }
 
 header {                        
     background-repeat: no-repeat;
-    background-size: cover ;                        
+    background-size: cover;                        
     overflow: hidden;
     background-image: url('../img/inicio.jpg');
-     height: 100vh; 
-    color: #F7F5F5;
-    min-height: auto;
-    max-width:100%;
-    background-attachment: fixed;
-    background-position: center;
-  
-    
+    height: 100vh;
+    color: #F7F5F5;                        
   }
 
-  #box-wrapper{
-       background-repeat: no-repeat;
-      background-size: cover;                        
-      overflow: hidden;
-      background-image: url('../img/inicio.jpg');
-      height: 100vh; 
-      color: #F7F5F5;
-      min-height: 640px;
-      background-position: center;
-  }
-
-
-
-
-
-
-
-.index01{
-  background-repeat: no-repeat;
-  
-  background-color: #95181A;
-  background-position: right;
-  background-image: url('../img/gastronomia.png');
-  height:90vh;
-
-}
-
-.textoId01{
-  font-family: "MyriadPro";
-  font-size:200%;
-  color: #F7F5F5;
-  margin-left: 5%;
-  margin-top: 2.5%;
-}
-
-.index02{
-  min-height: 80vh;
-  height: auto;
-  padding-bottom: 30px;
-}
-
-.tituloPatrocinadores {
-  padding: 3%;
-  font-family: 'MoonFlower-Bold';
-  color: #95181A;
-}
 
 .contentHeader {
-  margin-top: -2%;
+  margin-top: 5%;
   position: relative;
 }
-
-.corFontId02{
-  color: #145121 !important;
+footer{
+  background-color: #F5F5F5;
 }
-.ajusteLarguraId02{
-  width: 80vw;
+.ajusteFooter{
+  width: 25%;
   margin-right: auto;
   margin-left: auto;
+  min-height: 100px;
 }
-.ajusteImgIN{
-  max-width: 30px;
-}
-
-.index03{
-  height: auto;
-  background-color: #145121;
-  padding-bottom: 20px;
-}
-.titulo03{
-  
-  font-family: 'MoonFlower-Bold';
-  color: #F7F5F5;
+.imgFooter{
+  margin-top: 25px;
+  height: 50px;
 }
 
-.cell_organizacao{
-  width: 50vh;
-  height: 50vh;
-  border-radius: 100%;
-  border: 3px solid #F7F5F5;
-}
-.ajusteImgOrganizacao{
-  height: 40vh;
-  margin-top: 5vh;
-}
-
-.letraOrganizacao{
-  font-family: "MyriadPro";
-  color: #F7F5F5;
-  padding: 4%;
-  font-size: 120%;
-}
-
-.ajusteBordaOrganizacao{
-  margin-top: 30px;
-  width: 80vw;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.index04{
-  padding-bottom: 20px;
-  
-}
-
-.index04 img{
-  width: 500px;
-  padding: 20px;
-}
-
-.index05{
-  background-color: #b71c1c;
-  padding-bottom: 40px;
-}
-.ajusteMap{
-  height:40vh;
-  
-  border-style: 10px; 
-}
-.corDivsId05{
-  background-color:#e53935;
-}
-.ajusteRowId05{
-  margin-top: 10px;
-}
-.bordaMap{
-  margin-left: -16px;
-  width: 185vh;
-  height: 43vh;
-  border: 10px solid #e53935;
-
-}
 
   /*#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
   #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
   #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
   #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
   #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}*/
-@media only screen and (max-width: 480px) {
+@media screen and (min-width: 1921px){
+  h1{
+    font-size: 4em !important;
+  }
+}
+@media screen and (max-width: 1750px) and (min-width: 1550px){
+  h1{
+    font-size: 4em !important;
+  }
 
-  .subHeader{
-      margin-top: 20px;
-      font-size: 250%;
-      font-family: "MoonFlower";
-      color: #262626;
-      padding-top: 5px; 
+  h2{
+    margin-top: 20px !important;
+    font-size: 4em !important
+  }
+  .imgHeader{
+    margin-top: 30px !important;
+    max-width: 6% !important;
+  }
+  .imgTituloHeader{
+    max-width: 30% !important;
+  }
+  .cell_organizacao{
+    width: 45vh !important;
+    height: 45vh !important;
+  }
+  .ajusteImgOrganizacao{
+    height: 250px !important;
+    margin-top: 5vh !important;
+  }
+}
+
+@media screen and (max-width: 1549px) and (min-width: 1350px){
+  .ajusteLarguraId02{
+    width: 80vw !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .ajusteLista01{
+    margin-left: 40px !important;
+  }
+  h2{
+    margin-top: 20px !important;
+    font-size: 4em !important
+  }
+  h1{
+    font-size: 4em !important;
+  }
+    .imgHeader{
+    margin-top: 30px !important;
+    max-width: 7% !important;
+  }
+  .imgTituloHeader{
+    max-width: 27% !important;
+  }
+  .cell_organizacao{
+    width: 45vh !important;
+    height: 45vh !important;
+  }
+  .ajusteImgOrganizacao{
+    height: 230px !important;
+    margin-top: 5vh !important;
+  }
+}
+@media screen and (max-width: 1349px) and (min-width: 1200px){
+  .ajusteLarguraId02{
+    width: 80vw !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .ajusteLista01{
+    margin-left: 20px !important;
+  }
+  .imgHeader{
+    margin-top: 0px !important;
+    max-width: 8% !important;
+  }
+  .imgTituloHeader{
+    max-width: 30% !important;
+  }
+  h2{
+    margin-top: 20px !important;
+    font-size: 4em !important
+  }
+  h1{
+    font-size: 4em !important;
+  }
+  .cell_organizacao{
+    width: 39vh !important;
+    height: 39vh !important;
+  }
+  .ajusteImgOrganizacao{
+    height: 200px !important;
+    margin-top: 3vh !important;
+  }
+
+
+}
+@media screen and (max-width: 1199px) and (min-width: 992px){
+
+  .index01{
+    font-size: 0.77em !important;
+  }
+  .ajusteLista01{
+    margin-left: 10px !important;
+  }
+  .ajusteLarguraId02{
+    width: 80vw !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .cell_organizacao{
+    width: 30vh !important;
+    height: 30vh !important;
+  }
+  .ajusteImgOrganizacao{
+    height: 150px !important;
+    margin-top: 3vh !important;
+  }
+  h1{
+    font-size: 4em !important;
+  }
+
+  h2{
+    margin-top: 20px !important;
+    font-size: 4em !important
+  }
+  .imgHeader{
+    margin-top: 10px !important;
+    max-width: 8% !important;
+  }
+  .imgTituloHeader{
+    max-width: 40% !important;
+  }
+  .imgFooter{
+    margin-top: 20px !important;
+  }
+  .ajusteFooter{
+    width: 50% !important;
+  }
+  .listaNav{
+    font-size: 1.5em !important;
+  }
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 877px){
+  .index01{
+    font-size: 0.8em !important;
+  }
+      .cell_organizacao{
+    width: 40vh !important;
+    height: 40vh !important;
+  }
+  .ajusteImgOrganizacao{
+    height: 300px !important;
+    margin-top: 5vh !important;
+  }
+  .ajusteLista01{
+    margin-left: 5px !important;
+  }
+  h1{
+    font-size: 4em !important;
+  }
+
+  h2{
+    margin-top: 20px !important;
+    font-size: 4em !important
+  }
+  .imgHeader{
+    margin-top: 30px !important;
+    max-width: 10% !important;
+  }
+  .imgTituloHeader{
+    max-width: 40% !important;
+  }
+    .imgFooter{
+    margin-top: 20px !important;
+  }
+  .ajusteFooter{
+    width: 40% !important;
+  }
+  .listaNav{
+    font-size: 1.5em !important;
+  }
+}
+
+@media screen and (max-width: 876px) and (min-width: 768px){
+  .index01{
+    font-size: 1.05em !important;
+    text-align: center !important;
+
+    background-color: #95181A !important;
+    background-position: right !important;
+    background-image: url() !important;
+    margin-left: 0% !important;
+    overflow: hidden !important;
+
+  }
+  .textoId01{
+    width: 100% !important;
+  }
+
+  .tamImg04{
+    height: 200px;
+  }
+
+  h1{
+    font-size: 4em !important;
+  }
+
+  h2{
+    margin-top: 20px !important;
+    font-size: 4em !important
+  }
+  .imgHeader{
+    margin-top: 30px !important;
+    max-width: 12% !important;
+  }
+  .imgTituloHeader{
+    max-width: 45% !important;
+  }
+  .cell_organizacao{
+    width: 30vh !important;
+    height: 30vh !important;
+  }
+  .ajusteImgOrganizacao{
+    height: 250px !important;
+    margin-top: 3vh !important;
+  }
+  .imgFooter{
+    margin-top: 20px !important;
+  }
+  .ajusteFooter{
+    width: 50% !important;
+  }
+  .listaNav{
+    font-size: 1.3em !important;
+  }
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 550px){
+
+
+  .index01{
+    font-size: 1.05em !important;
     
+    text-align: center;
+
+    background-color: #95181A !important;
+    background-position: right !important;
+    background-image: url() !important;
+    margin-left: 0% !important;
+    overflow: hidden !important;
   }
 
-  header {                        
-    background-repeat: no-repeat;
-    background-size: cover ;                        
-    overflow: hidden;
-    background-image: url('../img/inicio.jpg');
-     height: 100vh; 
-    color: #F7F5F5;
-    min-height: auto;
-    max-width:100%;
-    background-attachment: fixed;
-    background-position: center;
-  
+  .tamImg04{
+    height: 200px;
+  }
+
+  h1{
+    font-size: 4em !important;
+  }
+
+  h2{
+    margin-top: 20px !important;
+    font-size: 4em !important
+  }
+  .imgHeader{
+    margin-top: 30px !important;
+    max-width: 17% !important;
+  }
+  .imgTituloHeader{
+    max-width: 65% !important;
+  }
+  .cell_organizacao{
+    width: 30vh !important;
+    height: 30vh !important;
+  }
+  .ajusteImgOrganizacao{
+    height: 200px !important;
+    margin-top: 4vh !important;
+  }
+    .imgFooter{
+    margin-top: 20px !important;
+  }
+  .ajusteFooter{
+    width: 80% !important;
+  }
+}
+
+/*PROBLEMA NA MENOR TELA POR ISSO ESTA DIVISAO*/
+@media screen and (max-width: 549px) and (min-width: 400px){
+
+    .index01{
+    font-size: 1.05em !important;
     
+    text-align: center;
+
+    background-color: #95181A !important;
+    background-position: right !important;
+    background-image: url() !important;
+    margin-left: 0% !important;
+    overflow: hidden !important;
+  }
+
+
+
+  h1{
+    font-size: 4em !important;
+  }
+
+  h2{
+    margin-top: 20px !important;
+    font-size: 4em !important
+  }
+  .imgHeader{
+    margin-top: 45px !important;
+    max-width: 17% !important;
+  }
+  .imgTituloHeader{
+    max-width: 65% !important;
+  }
+    .imgFooter{
+    margin-top: 20px !important;
+  }
+  .ajusteFooter{
+    width: 80% !important;
   }
 }
 
-@media only screen and (max-width: 481px) and (max-width: 715px) {
+/* MENOR TELA  -> PRONTA*/
+@media screen and (max-width: 399px) and (min-width: 350px){
 
-
-  .subHeader{
-      margin-top: 20px;
-      font-size: 250%;
-      font-family: "MoonFlower";
-      color: #262626;
-      padding-top: 5px; 
+  .index01{
+    font-size: 0.94em !important;
     
+    
+
+    background-color: #95181A !important;
+    background-position: right !important;
+    background-image: url() !important;
+    margin-left: 0% !important;
+    overflow: hidden !important;
   }
 
-  header {                        
-    background-repeat: no-repeat;
-    background-size: cover ;                        
-    overflow: hidden;
-    background-image: url('../img/inicio.jpg');
-     height: 100vh; 
-    color: #F7F5F5;
-    min-height: auto;
-    max-width:100%;
-    background-attachment: fixed;
-    background-position: center; 
+  .ajusteLarguraId02{
+    width: auto;
   }
 
-      .testeStrong{
-         font-size: 50px;
-      }
-}
+  .ajusteBordaOrganizacao{
+    margin-left: -10px !important;
 
-.cf{
-  background-color:#95181A;
-  
-}
+  }
+  .letraOrganizacao{
+    margin-left: 20px  !important;
+  }
+  .ajusteLista01{
+    margin-left: 20px !important;
+  }
 
-.listaNav{
-      font-size: 25px;
-      font-family: "MyriadPro";
-      color: #F7F5F5; 
-}
+  h1{
+    font-size: 4em !important;
+  }
 
-@media only screen and(max-width:400px){
-  .btn-teste1{
-      width: 200px;
-    color: #F7F5F5;
-    background-color: #95181A;
-    padding-left: 4px;
-     margin-left: 330px;
-    padding: 20px; 
-}
-
-.btn-teste2{
-    width: 200px;
-    color: #F7F5F5;
-    background-color: #95181A;
-    padding-left: 4px;
-    background-size: 30%;
-    margin-left: 300px;
-    padding: 20px; 
-} 
-  
- .testeStrong{
-         width: 10px;
-         padding-top: 2px;
-      }
-
-      .subHeader{
-        /* margin-top: -30px; */
-        font-size: 50%;
-        font-family: "MoonFlower";
-        color: #262626;
-        padding-top: -40px;
-   
-    }
-
-    .imgTituloHeader{
-      width: 30px;
-      padding-top: -50px;
-      margin-top: -40px;
+  h2{
+    margin-top: 10px !important;
+    font-size: 4em !important
+  }
+  .imgHeader{
+    margin-top: 20px !important;
+    max-width: 17% !important;
+  }
+  .imgTituloHeader{
+    max-width: 65% !important;
+  }
+  .imgFooter{
+    margin-top: 20px !important;
+  }
+  .ajusteFooter{
+    width: 90% !important;
+  }
+  .buttonHeader{
+    font-size: 1.5em !important;
   }
 }
 
+@media screen and (max-width: 349px) {
+    .index01{
+    font-size: 0.94em !important;
+    
+    
 
-.btn-teste1{
-    width: 150px;
-    color: #F7F5F5;
-    background-color: #95181A;
-    padding-left: 4px;
-    background-size: 30%;
-    margin-left: 340px;
-    padding: 20px;
+    background-color: #95181A !important;
+    background-position: right !important;
+    background-image: url() !important;
+    margin-left: 0% !important;
+    overflow: hidden !important;
+  }
+
+  .ajusteLarguraId02{
+    width: auto;
+  }
+
+  .ajusteBordaOrganizacao{
+    margin-left: -10px !important;
+
+  }
+  .letraOrganizacao{
+    margin-left: 20px  !important;
+  }
+  .ajusteLista01{
+    margin-left: 20px !important;
+  }
+
+  h1{
+    font-size: 4em !important;
+  }
+
+  h2{
+    margin-top: 20px !important;
+    font-size: 3.5em !important
+  }
+  .imgHeader{
+    margin-top: 20px !important;
+    max-width: 17% !important;
+  }
+  .imgTituloHeader{
+    max-width: 45% !important;
+  }
+  .imgFooter{
+    margin-top: 20px !important;
+  }
+  .ajusteFooter{
+    width: 90% !important;
+  }
+  .buttonHeader{
+    font-size: 1.2em !important;
+  }
 }
-
-.btn-teste2{
-    width: 150px;
-    color: #F7F5F5;
-    background-color: #95181A;
-    padding-left: 4px;
-    background-size: 30%;
-    margin-left: 340px;
-    padding: 20px; 
-}
-
-    .bordaMap{
-        margin-left: -1px;
-        width: 100%;
-        height: 43vh;
-        border: 10px solid #e53935;
-    }
-
